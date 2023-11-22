@@ -1,0 +1,35 @@
+first -all needed software like vs code, node,mongo db, postman etc
+second- create a folder of your project name
+third- make a package .json file using command {node init}
+four- install needed packege 1-{npm i expresss}-->for install expresss
+                             2-{npm i mongoose} ---  install mongoose --->its conect nodejs into mongo db
+                             3-{npm i nodemon}------>install nodemon ---->its help in making no run code every time
+
+=> make a {index.js} file
+
+==> for setup backend we add code in index.js
+
+        const express = require('express')
+        const app = express();
+        app.get("/",(req,resp)=>{
+            resp.send("app is working")
+            })
+            app.listen(5000)  
+
+ ===> after that we simply run nodemon in terminal to check whether it is working or noot in browser
+ =====>for that we go to browser and in adress bar type localhost:5000(or dedicated port) andd see output.
+
+===>Frontend
+ create a react app ----> npx create-react-app
+ install router ----->  npm i react-router-dom
+
+ work on all your react pages all you need 
+
+
+after that connect mongo db by using mongoose
+
+
+then all setup like config file then etc
+
+there is one issue in project that is CORSE error /acess to fetch solution is ----> resolve ffrom backend install {npm i cors}
+  
